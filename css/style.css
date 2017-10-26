@@ -1,0 +1,84 @@
+html {
+
+   background-color: rgb(40,44,54);
+}
+body {
+  background-color: rgb(40,44,54);
+  margin: 0 auto ;
+}
+
+#main-container {
+  margin: 0 auto;
+  padding: 0;
+  border: 3px solid rgb(238,238,238);
+}
+div.jumbotron {
+  padding-top: 30px;
+  padding: 10px;
+}
+
+h1 {
+  font-family: 'Bungee', cursive;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  font-size: 30px;
+}
+
+#tagline {
+  margin-left: 10%;
+  font-size: .79em;
+}
+
+#logo-container {
+  margin: 0 auto;
+  padding-bottom: 80px;
+  padding-top: 70px;
+}
+
+img#logo-landing-spin {
+  height: 350px;
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  animation-name: spin;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.775, 0.530, 0.195, 0.910);
+  animation-direction: normal;
+}
+
+div#welcome-text.container {
+  background-color: rgb(238,238,238);
+  border-radius: 7px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 2.0em;
+  padding-left: 40px;
+  padding-top: 15px;
+}
+
+div p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(120deg);
+  }
+  60% {
+    transform: rotate(240deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
